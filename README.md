@@ -1,5 +1,7 @@
 XMLRPC Fuzzer for Wordpress
 
+![alt text](xmlrpc-demo.png)
+
 
 Overview
 
