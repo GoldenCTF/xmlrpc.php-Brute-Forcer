@@ -2,6 +2,8 @@ XMLRPC Fuzzer for Wordpress
 
 
 Overview
+
+
 xmlrpcfuzzer.py is a Python script designed to perform a fuzzing attack against the xmlrpc.php endpoint of a Wordpress site. This script attempts to authenticate using the wp.getUsersBlogs method by iterating over a list of potential passwords.
 
 The xmlrpc.php file in a Wordpress installation is an endpoint that enables remote communication with the site. It allows external applications to send commands to your Wordpress site without having to log in through the web interface.
